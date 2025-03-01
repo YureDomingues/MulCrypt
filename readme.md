@@ -8,10 +8,10 @@ Esse arquivo unico tera 2 senhas de acesso, uma das senha retorna o primeiro arq
 
 atualmente temos uma funcao que junta os dois arquivos sequancialmente ou seja:
 ```
-arq1 = [1234567890]
-arq1 = [abcdefgh]
+arq1 = [1111111111]
+arq1 = [00000000]
 
-arq_resultante = [1a2b3c4d5e6f7g8h9 0 ]
+arq_resultante = [10101010101010101 1 ]
 
 
 ```
