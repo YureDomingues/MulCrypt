@@ -41,6 +41,66 @@ E| B  2  C  1  9  3  F  7  5  8  E  D  6  0  A  4
 F| 7  0  3  9  B  F  8  6  E  2  A  5  C  4  1  D  
 
 ```
+```
+
+arq1 = [01100101]
+arq2 = [10011110]
+
+senha1 = 13
+senha2 = 43
+
+arqf = []
+
+arq1simp = [1211]
+arq2simp = [2132]
+
+M1(1,1) = M2(2,4) = 3
+M1(2,3) = M2(1,3) = 1
+M1(1,1) = M2(3,4) = 4
+M1(1,3) = M2(2,3) = 2
+
+arqf = [3132]
+
+arqf = [3142]
+senha1 = 13
+
+M(arq,senha)
+MR(arf,senha)
+
+M1R(3,1)
+M1R(1,3)
+M1R(4,1)
+M1R(2,3)
+
+arq1 = [1211]
+
+M1(4,1) = M2(3,4) = 5
+
+M1 1 2 3 4 (arq)
+1  (3,4) 5
+2      
+3  2 1
+4  
+(senha)
+
+M2R(3,4)
+M2R(1,3)
+M2R(4,4)
+M2R(2,3)
+
+arq2 = [2122]
+arq2 = [3122]
+arq2 = [2132]
+arq2 = [3132]
+
+M2 1 2 3 4 (arq)
+1      
+2      
+3  1 2    
+4    3 (4,5)
+(senha)
+
+```
 
 cada senha tera uma tabela assim codificada no header, com isso ao encriptar podemos usa as coordenadas e x = "4 bits do arquivo" e y = "char da senha", com isso podemos passar por todos os bits e substitulos de 4 em 4 pelo valor da tabela (x,y);
 
